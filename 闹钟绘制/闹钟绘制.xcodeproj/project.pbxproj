@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0537EFD9201F1CF600F79C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537EFD8201F1CF600F79C84 /* AppDelegate.swift */; };
+		0537EFDB201F1CF600F79C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537EFDA201F1CF600F79C84 /* ViewController.swift */; };
+		0537EFDE201F1CF600F79C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0537EFDC201F1CF600F79C84 /* Main.storyboard */; };
+		0537EFE0201F1CF600F79C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0537EFDF201F1CF600F79C84 /* Assets.xcassets */; };
+		0537EFE3201F1CF600F79C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0537EFE1201F1CF600F79C84 /* LaunchScreen.storyboard */; };
+		0537EFEE201F1CF700F79C84 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537EFED201F1CF700F79C84 /* ____Tests.swift */; };
+		0537EFF9201F1CF700F79C84 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537EFF8201F1CF700F79C84 /* ____UITests.swift */; };
+		0537F007201F1DFD00F79C84 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537F006201F1DFD00F79C84 /* ClockView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0537EFEA201F1CF700F79C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0537EFCD201F1CF600F79C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0537EFD4201F1CF600F79C84;
+			remoteInfo = "闹钟绘制";
+		};
+		0537EFF5201F1CF700F79C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0537EFCD201F1CF600F79C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0537EFD4201F1CF600F79C84;
+			remoteInfo = "闹钟绘制";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0537EFD5201F1CF600F79C84 /* 闹钟绘制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闹钟绘制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0537EFD8201F1CF600F79C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0537EFDA201F1CF600F79C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0537EFDD201F1CF600F79C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0537EFDF201F1CF600F79C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0537EFE2201F1CF600F79C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0537EFE4201F1CF600F79C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0537EFE9201F1CF700F79C84 /* 闹钟绘制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闹钟绘制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0537EFED201F1CF700F79C84 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		0537EFEF201F1CF700F79C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0537EFF4201F1CF700F79C84 /* 闹钟绘制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闹钟绘制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0537EFF8201F1CF700F79C84 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		0537EFFA201F1CF700F79C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0537F006201F1DFD00F79C84 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0537EFD2201F1CF600F79C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0537EFE6201F1CF700F79C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0537EFF1201F1CF700F79C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0537EFCC201F1CF600F79C84 = {
+			isa = PBXGroup;
+			children = (
+				0537EFD7201F1CF600F79C84 /* 闹钟绘制 */,
+				0537EFEC201F1CF700F79C84 /* 闹钟绘制Tests */,
+				0537EFF7201F1CF700F79C84 /* 闹钟绘制UITests */,
+				0537EFD6201F1CF600F79C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0537EFD6201F1CF600F79C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0537EFD5201F1CF600F79C84 /* 闹钟绘制.app */,
+				0537EFE9201F1CF700F79C84 /* 闹钟绘制Tests.xctest */,
+				0537EFF4201F1CF700F79C84 /* 闹钟绘制UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0537EFD7201F1CF600F79C84 /* 闹钟绘制 */ = {
+			isa = PBXGroup;
+			children = (
+				0537EFD8201F1CF600F79C84 /* AppDelegate.swift */,
+				0537EFDA201F1CF600F79C84 /* ViewController.swift */,
+				0537F006201F1DFD00F79C84 /* ClockView.swift */,
+				0537EFDC201F1CF600F79C84 /* Main.storyboard */,
+				0537EFDF201F1CF600F79C84 /* Assets.xcassets */,
+				0537EFE1201F1CF600F79C84 /* LaunchScreen.storyboard */,
+				0537EFE4201F1CF600F79C84 /* Info.plist */,
+			);
+			path = "闹钟绘制";
+			sourceTree = "<group>";
+		};
+		0537EFEC201F1CF700F79C84 /* 闹钟绘制Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0537EFED201F1CF700F79C84 /* ____Tests.swift */,
+				0537EFEF201F1CF700F79C84 /* Info.plist */,
+			);
+			path = "闹钟绘制Tests";
+			sourceTree = "<group>";
+		};
+		0537EFF7201F1CF700F79C84 /* 闹钟绘制UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0537EFF8201F1CF700F79C84 /* ____UITests.swift */,
+				0537EFFA201F1CF700F79C84 /* Info.plist */,
+			);
+			path = "闹钟绘制UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0537EFD4201F1CF600F79C84 /* 闹钟绘制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0537EFFD201F1CF700F79C84 /* Build configuration list for PBXNativeTarget "闹钟绘制" */;
+			buildPhases = (
+				0537EFD1201F1CF600F79C84 /* Sources */,
+				0537EFD2201F1CF600F79C84 /* Frameworks */,
+				0537EFD3201F1CF600F79C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "闹钟绘制";
+			productName = "闹钟绘制";
+			productReference = 0537EFD5201F1CF600F79C84 /* 闹钟绘制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0537EFE8201F1CF700F79C84 /* 闹钟绘制Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0537F000201F1CF700F79C84 /* Build configuration list for PBXNativeTarget "闹钟绘制Tests" */;
+			buildPhases = (
+				0537EFE5201F1CF700F79C84 /* Sources */,
+				0537EFE6201F1CF700F79C84 /* Frameworks */,
+				0537EFE7201F1CF700F79C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0537EFEB201F1CF700F79C84 /* PBXTargetDependency */,
+			);
+			name = "闹钟绘制Tests";
+			productName = "闹钟绘制Tests";
+			productReference = 0537EFE9201F1CF700F79C84 /* 闹钟绘制Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0537EFF3201F1CF700F79C84 /* 闹钟绘制UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0537F003201F1CF700F79C84 /* Build configuration list for PBXNativeTarget "闹钟绘制UITests" */;
+			buildPhases = (
+				0537EFF0201F1CF700F79C84 /* Sources */,
+				0537EFF1201F1CF700F79C84 /* Frameworks */,
+				0537EFF2201F1CF700F79C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0537EFF6201F1CF700F79C84 /* PBXTargetDependency */,
+			);
+			name = "闹钟绘制UITests";
+			productName = "闹钟绘制UITests";
+			productReference = 0537EFF4201F1CF700F79C84 /* 闹钟绘制UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0537EFCD201F1CF600F79C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yurong;
+				TargetAttributes = {
+					0537EFD4201F1CF600F79C84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0537EFE8201F1CF700F79C84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0537EFD4201F1CF600F79C84;
+					};
+					0537EFF3201F1CF700F79C84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0537EFD4201F1CF600F79C84;
+					};
+				};
+			};
+			buildConfigurationList = 0537EFD0201F1CF600F79C84 /* Build configuration list for PBXProject "闹钟绘制" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0537EFCC201F1CF600F79C84;
+			productRefGroup = 0537EFD6201F1CF600F79C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0537EFD4201F1CF600F79C84 /* 闹钟绘制 */,
+				0537EFE8201F1CF700F79C84 /* 闹钟绘制Tests */,
+				0537EFF3201F1CF700F79C84 /* 闹钟绘制UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0537EFD3201F1CF600F79C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537EFE3201F1CF600F79C84 /* LaunchScreen.storyboard in Resources */,
+				0537EFE0201F1CF600F79C84 /* Assets.xcassets in Resources */,
+				0537EFDE201F1CF600F79C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0537EFE7201F1CF700F79C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0537EFF2201F1CF700F79C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0537EFD1201F1CF600F79C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537EFDB201F1CF600F79C84 /* ViewController.swift in Sources */,
+				0537F007201F1DFD00F79C84 /* ClockView.swift in Sources */,
+				0537EFD9201F1CF600F79C84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0537EFE5201F1CF700F79C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537EFEE201F1CF700F79C84 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0537EFF0201F1CF700F79C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537EFF9201F1CF700F79C84 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0537EFEB201F1CF700F79C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0537EFD4201F1CF600F79C84 /* 闹钟绘制 */;
+			targetProxy = 0537EFEA201F1CF700F79C84 /* PBXContainerItemProxy */;
+		};
+		0537EFF6201F1CF700F79C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0537EFD4201F1CF600F79C84 /* 闹钟绘制 */;
+			targetProxy = 0537EFF5201F1CF700F79C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0537EFDC201F1CF600F79C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0537EFDD201F1CF600F79C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0537EFE1201F1CF600F79C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0537EFE2201F1CF600F79C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0537EFFB201F1CF700F79C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0537EFFC201F1CF700F79C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0537EFFE201F1CF700F79C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "闹钟绘制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0537EFFF201F1CF700F79C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "闹钟绘制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0537F001201F1CF700F79C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "闹钟绘制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/闹钟绘制.app/闹钟绘制";
+			};
+			name = Debug;
+		};
+		0537F002201F1CF700F79C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "闹钟绘制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/闹钟绘制.app/闹钟绘制";
+			};
+			name = Release;
+		};
+		0537F004201F1CF700F79C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "闹钟绘制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "闹钟绘制";
+			};
+			name = Debug;
+		};
+		0537F005201F1CF700F79C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "闹钟绘制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "闹钟绘制";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0537EFD0201F1CF600F79C84 /* Build configuration list for PBXProject "闹钟绘制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537EFFB201F1CF700F79C84 /* Debug */,
+				0537EFFC201F1CF700F79C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0537EFFD201F1CF700F79C84 /* Build configuration list for PBXNativeTarget "闹钟绘制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537EFFE201F1CF700F79C84 /* Debug */,
+				0537EFFF201F1CF700F79C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0537F000201F1CF700F79C84 /* Build configuration list for PBXNativeTarget "闹钟绘制Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537F001201F1CF700F79C84 /* Debug */,
+				0537F002201F1CF700F79C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0537F003201F1CF700F79C84 /* Build configuration list for PBXNativeTarget "闹钟绘制UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537F004201F1CF700F79C84 /* Debug */,
+				0537F005201F1CF700F79C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0537EFCD201F1CF600F79C84 /* Project object */;
+}
